@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.sidebar {
+    grid-column: 1/2;
+}
+
+.page {
+    grid-column: 2/3;
+}

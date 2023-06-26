@@ -1,0 +1,25 @@
+<form class="ms-5" (ngSubmit)="InputForm()">
+
+    <div class="form-group">
+      <label for="pokemon">Pokemon:</label>
+      <input [(ngModel)] = "newPokemon.pokemon"
+      name="inputpokemon"
+      type="text" class="form-control" id="pokemon" placeholder="Pikachu">
+    </div> <!--form-group-->
+
+    <div class="form-group">
+      <label for="tipo">Tipo:</label>
+      <input [(ngModel)] = "newPokemon.tipo"
+      name="inputpokemon2"
+      type="text" class="form-control" id="tipo" placeholder="Electricidad">
+    </div> <!--form-group-->
+
+    <div class="form-group">
+        <label for="poder">Poder:</label>
+        <input [(ngModel)] = "newPokemon.poder"
+        name="inputpokemon3"
+        type="number" class="form-control" id="poder" placeholder="100">
+      </div> <!--form-group-->
+
+      <button type="submit" class="btn btn-primary mt-2">Submit</button>
+  </form>

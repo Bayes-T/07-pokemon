@@ -1,0 +1,13 @@
+.info__display{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left: 20px;
+}
+
+.colIzq {
+    grid-column: 1/2;
+}
+
+.colDer {
+    grid-column: 2/3;
+}
